@@ -1,0 +1,50 @@
+/*body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  };*/
+/*NOTA: occore impostare image di background e cambiale il 
+#contenitore{
+    margin-left: 10%;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    margin-bottom: 0%;
+}
+/*TITOLO*/
+h1{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    line-height: 0.8;
+}
+/*ISTRUZIONI*/
+h2{
+    color: rgb(165, 2, 111);
+    margin-bottom: 0;
+}
+p{ 
+    margin-top: 0;
+}
+/*LISTA*/
+ul{
+    padding-inline-start:12px;
+}
+/*FORM: BOTTONE +CHECKBOX*/
+form{margin-top: 4%;}
+
+input{
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+
+button{
+    margin-left: 100px;
+   background-color: rgb(0, 225, 255);
+   border: none;
+   box-shadow: 0px 2px 20px rgb(0, 225, 255);
+   font-size: 0.8em;
+   width: 70px;
+   height: 20px;
+}
