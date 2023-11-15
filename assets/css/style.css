@@ -89,7 +89,7 @@ h1,h2{
     
 }
 .container-card .card:nth-child(2){
-     width: 49%;
+     width: 48%;
      height: 40vh;
      position: relative;
    /*   background-color: antiquewhite; */
@@ -135,10 +135,6 @@ h1,h2{
 }
 
 
-/* css 2page- Milena */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap');
-
-
  header {
     margin: 0 auto;
     padding: 50px;
@@ -148,11 +144,11 @@ h1,h2{
     padding-left: 50px;
   }
   
-  main div {
+/*   main div {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-  }
+  } */
   
   h1 {
     font-size: 5rem;
