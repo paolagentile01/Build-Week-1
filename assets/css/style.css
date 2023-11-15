@@ -45,7 +45,7 @@ h1,h2{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: white;
+   
 }
 
 .formDesign{
@@ -81,46 +81,56 @@ h1,h2{
 }
 .card {
   display: inline-block; 
-   
-    border: 1px solid red;
-    width: 28%;
-    height: 400px;
+    width: 25%;
+    height: 25vh;
     text-align: center;
-    background-color: transparent;
-    position: relative;
+  /*   background-color: red; */
+
+    
+}
+.container-card .card:nth-child(2){
+     width: 49%;
+     height: 40vh;
+     position: relative;
+   /*   background-color: antiquewhite; */
+}
+
+#container-circle{
+    
+  position: absolute;
+  left: 25%;
+  top: 0%;
 }
 
 .position {
-    position: absolute;
-     width: 160px;
-     height: 160px;
+   /*   width: 160px;
+     height: 160px; */
      cursor: pointer;
-    top: 25%;
-    left: 25%;
-   
 }
 .progress-circle{
-  width: 200px;
-  height: 200px;
+  width: 30vw;
+  height: 50vh;
+ margin-top: 0;
 }
+
 .inner{
     fill: none;
     stroke: #D20094 ;
-    stroke-width: 10px;
+    stroke-width: 60px;
 }
 .outer {
     fill: none;
     stroke: #00ffff;
-    stroke-width: 10px;
+    stroke-width: 60px;
     stroke-dasharray: 0 999;
     stroke-dashoffset: 0px;
-    transition: stroke-dasharray 0.5s linear 0s;
+    transition: stroke-dasharray 0.5s linear 0s; 
 }
 .text {
-    width: 100%;
+    width: 55%;
     position: absolute;
-    top: 50px;
-     /* left: 0; */ 
+    top: 25%;
+    left: 5%;
     text-align: center;
 }
 
@@ -172,3 +182,14 @@ h1,h2{
   }
   
   
+ .buttonSimple {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    width: fit-content;
+    padding: 10px 40px;
+    margin: 0px;
+    color: white;
+}
