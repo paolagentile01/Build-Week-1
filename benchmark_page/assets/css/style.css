@@ -6,7 +6,7 @@ body {
   box-sizing: content-box;
   background-image: url(/benchmark_page/assets/loghiEImmagini/bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: white;
   font-family: 'Outfit', sans-serif;
 }
