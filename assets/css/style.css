@@ -105,18 +105,18 @@ h1,h2{
    
 }
 .progress-circle{
-  width: 200px;
-  height: 200px;
+  width: 700px;
+  height:700px;
 }
 .inner{
     fill: none;
     stroke: #D20094 ;
-    stroke-width: 10px;
+    stroke-width: 20px;
 }
 .outer {
     fill: none;
     stroke: #00ffff;
-    stroke-width: 10px;
+    stroke-width: 20px;
     stroke-dasharray: 0 999;
     stroke-dashoffset: 0px;
     transition: stroke-dasharray 0.5s linear 0s;
