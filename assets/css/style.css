@@ -68,6 +68,9 @@ h1,h2{
 
 }
 
+.stellineFeedback svg{
+    fill: gray;
+}
 /* css 3page- Esperanza */
 
 .container-card {
