@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Domande</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="conteiner">
+      <div>
+        <img id="logoEpicode" src="assets/img/epicode_logo.png" alt="" class="logo" />
+      </div>
+
+      <!--timer-->
+      <div id="timerbox">
+        <div id="time">0</div>
+        <canvas id="stopwatch" width="200" height="200"></canvas>
+      </div>
+
+      <!--domanda 1-->
+      <div id="h1box">
+        <h1 id="domanda">HTML è un ?</h1>
+      </div>
+
+      <div id="tastibox">
+        <button type="submit" class="risposte"> <span>Linguaggio di markup</span></button>
+        <button type="submit" class="risposte">
+          <span>Linguaggio di programmazione</span>
+        </button>
+        <br />
+        <button type="submit" class="risposte"><span>Documenti</span></button>
+        <button type="submit" class="risposte"><span>Nessuno dei precedenti</span></button>
+        
+      </div>
+
+      <div id="buttonbox">
+        <button type="submit" id="btnconferma"><span>Conferma</span>
+        </button>
+      </div>
+
+      <div>
+        <h4 id="avanzamento">domanda 1/10</h4>
+      </div>
+      
+    </div>
+
+    <script src="assets/js/script2.js" async defer></script>
+  </body>
+</html>
