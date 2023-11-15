@@ -68,8 +68,12 @@ h1,h2{
 
 }
 
-/*pagina 2*/
 
+.stellineFeedback svg{
+    fill: gray;
+}
+
+/*pagina 2*/
 
 
 /* css 3page- Esperanza */
