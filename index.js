@@ -25,7 +25,7 @@
         animation = setInterval(function () {
           draw();
           digital.innerHTML = Math.floor(t);
-        }, 50);
+        }, 30);
       }
       else {
         timerOn = false;
@@ -41,3 +41,6 @@
       t = 0;
     });
   })();
+
+
+
