@@ -1,17 +1,19 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
     font-family: 'Inter', sans-serif;
-    background-image: url(../img/bg.jpg);
+    background-image: url(/assets/img/bg.jpg);
     background-size: cover;
     margin: 0;
+    color: white;
 }
 
 /*SEZIONE HEADER*/
 /*logo epicode*/
 .logo{
-    width: 300px;
+    width: 200px;
     padding: 50px;
 }
 
@@ -20,13 +22,14 @@ body{
     text-align: center;
 }
 
+h1,h2{
+    font-family: 'Outfit',sans-serif;
+}
 .caratteriCentrati h2{
-    color: white;
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .caratteriCentrati p{
-    color: white;
     font-size: 25px;
 }
 
@@ -42,7 +45,7 @@ body{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: white;
+   
 }
 
 .formDesign{
@@ -63,88 +66,4 @@ body{
     font-weight: bold;
     box-shadow: 0px 0px 23px 0px aqua;
 
-}
-
-/*pagina 2*/
-
-#timerbox{
-    margin-left: 80%;
-}
-
-#time {
-    color:#00ffff;
-    font-family:Arial;
-    font-size:40px;
-    position:absolute;
-    top: 2px;
-    width:200px;
-    height:50px;
-    text-align:center;
-    line-height:50px;
-    border-radius:5px;
-}
-
-  #stopwatch {
-    position:absolute;
-    border:7px solid #00ffff;
-    margin-top: -40px;
-    border-radius:200px;
-    width: 100px;
-}
-
-#h1box{
-    padding: 10px;
-    margin: 3em;
-}
-
-#domanda{
-
-    color: white;
-    font-size: 6em;
-    text-align: center;
-}
-
-/*risposte domande*/
-
-#tastibox{
-    padding-left: 20em;
-    padding-right: 20em;
-    text-align: center;
-}
-
-.risposte{
-    border-radius: 80px;
-    height: 10em;
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-top-color: white;
-    border-bottom: none;
-    color: white;
-    margin: 1rem;
-
-}
-
-.risposte span{
-    font-size: 2em;
-}
-
-#buttonbox{
-    text-align: center;
-    padding: 2rem;
-}
-
-#btnconferma{
-    width: 10%;
-    min-height: 5%;
-    border-radius: 30px;
-    background-color: #ac068b;
-    border-top-color: white;
-    color: white;
-}
-
-
-#avanzamento{
-    text-align: center;
-    color: white;
-    font-size: 2rem;
 }
