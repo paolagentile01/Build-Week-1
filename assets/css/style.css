@@ -28,12 +28,11 @@ body{
 }
 
 .caratteriCentrati h2{
-    color: white;
+    
     font-size: 55px;
 }
 
 .caratteriCentrati p{
-    color: white;
     font-size: 25px;
 }
 
@@ -49,7 +48,7 @@ body{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: white;
+   
 }
 
 .formDesign{
@@ -124,5 +123,12 @@ body{
     position: absolute;
     top: 50px;
      /* left: 0; */ 
+    text-align: center;
+}
+ .buttonSimple {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
