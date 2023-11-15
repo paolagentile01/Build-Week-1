@@ -96,8 +96,6 @@ h1,h2{
 }
 
 #container-circle{
-    
-  position: absolute;
   left: 25%;
   top: 0%;
 }
@@ -108,8 +106,8 @@ h1,h2{
      cursor: pointer;
 }
 .progress-circle{
-  width: 30vw;
-  height: 50vh;
+  width: 500px;
+  height: 500px;
  margin-top: 0;
 }
 
@@ -127,10 +125,10 @@ h1,h2{
     transition: stroke-dasharray 0.5s linear 0s; 
 }
 .text {
-    width: 55%;
+    width: 100%;
     position: absolute;
-    top: 25%;
-    left: 5%;
+    top: 241px;
+   /*  left: %; */
     text-align: center;
 }
 
