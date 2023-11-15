@@ -1,4 +1,4 @@
-let resultTest = 70;
+let resultTest = 50;
 let congratulazioni = "Congratulation !";
 
 function progressBar(resultVal, totalPercentageVal ) {
