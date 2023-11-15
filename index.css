@@ -1,0 +1,65 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* cronometro */
+#time {
+    color:#00ffff;
+    font-family:Arial;
+    font-size:40px;
+    position:absolute;
+    left:67%;
+    top: 50px;
+    margin-left:-100px;
+    width:200px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    border-radius:5px;
+}
+
+  #stopwatch {
+    position:absolute;
+    left:70%;
+    margin-left:-100px;
+    border:7px solid #00ffff;
+    margin-top: -40px;
+    border-radius:200px;
+    width: 100px;
+}
+
+
+/* logo*/
+#logoEpicode{
+    width: 200px;
+    margin-left: 5em;
+}
+
+
+/* titoli domande*/
+h1{
+    margin-left:40% ;
+}
+
+/*risposte domande*/
+.risposte{
+    margin-left: 30%;
+    border-radius: 20px;
+    height: 50px;
+    width: 215px;
+    margin-top: 15px;
+    margin-right: -25%;
+    background-color: Transparent;
+    border-top-color: white;
+    border-bottom: none;
+    color: whitesmoke;
+}
+
+/* avanzamento*/
+p{
+    margin-left: 45%;
+}
