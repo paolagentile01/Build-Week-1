@@ -1,9 +1,12 @@
 body{
+    /*margin: 0 auto;
+    padding: 0;*/
+    box-sizing: content-box;
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     color: white;
+    font-family: 'outfits', sans-serif;
 }
 
 /* cronometro */
