@@ -13,12 +13,13 @@ body{
     background-image: url(../img/bg.jpg);
     background-size: cover;
     margin: 0;
+    color: white;
 }
 
 /*SEZIONE HEADER*/
 /*logo epicode*/
 .logo{
-    width: 300px;
+    width: 120px;
     padding: 50px;
 }
 
@@ -27,9 +28,11 @@ body{
     text-align: center;
 }
 
+h1,h2{
+    font-family: 'Outfit',sans-serif;
+}
 .caratteriCentrati h2{
-    
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .caratteriCentrati p{
