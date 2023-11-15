@@ -1,6 +1,6 @@
 body{
-    /*margin: 0 auto;
-    padding: 0;*/
+    margin: 0 auto;
+    padding: 0;
     box-sizing: content-box;
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body{
 
 
 /* titoli domande*/
-h1{
+#domanda{
     margin-left:40% ;
 }
 
@@ -63,6 +63,6 @@ h1{
 }
 
 /* avanzamento*/
-p{
+#avanzamento{
     margin-left: 45%;
 }

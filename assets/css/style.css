@@ -64,3 +64,73 @@ body{
     box-shadow: 0px 0px 23px 0px aqua;
 
 }
+
+/*pagina 2*/
+
+#timerbox{
+    margin-left: 80%;
+}
+
+#time {
+    color:#00ffff;
+    font-family:Arial;
+    font-size:40px;
+    position:absolute;
+    top: 2px;
+    width:200px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    border-radius:5px;
+}
+
+  #stopwatch {
+    position:absolute;
+    border:7px solid #00ffff;
+    margin-top: -40px;
+    border-radius:200px;
+    width: 100px;
+}
+
+#h1box{
+    padding: 50px;
+    margin: 3em;
+}
+
+#domanda{
+
+    color: white;
+    font-size: 6em;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*risposte domande*/
+
+#tastibox{
+    padding-left: 20em;
+    padding-right: 20em;
+    text-align: center;
+}
+
+.risposte{
+    border-radius: 80px;
+    height: 10em;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-color: white;
+    border-bottom: none;
+    color: white;
+    margin: 1rem;
+
+}
+
+.risposte span{
+    font-size: 2em;
+}
+
+#avanzamento{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
