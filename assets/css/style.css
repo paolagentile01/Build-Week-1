@@ -69,6 +69,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 
 #fakeButton1 a{
     text-decoration: none;
+    color: black;
 }
 
 
