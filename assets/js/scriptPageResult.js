@@ -1,4 +1,4 @@
-let resultTest = 40;
+let resultTest = 66.7;
 let failed = "hai fallito";
 let congratulazioni = "Congratulation !";
 
@@ -17,3 +17,11 @@ function message(result) {
   }
 }
  message(resultTest)
+
+ function percentage(result) {
+  let scoreCorrect = document.querySelector("#correct");
+  scoreCorrect.innerHTML= result + '%';
+  let scoreWrong = document.querySelector("#wrong");
+  scoreWrong.innerHTML =( 100 - result) + '%';
+ }
+ percentage(resultTest)
