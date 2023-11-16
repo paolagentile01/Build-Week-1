@@ -151,79 +151,76 @@ h1,h2{
 /* css 3page- Esperanza */
 
 .container-card {
-    /*  display: flex;
-     flex-direction: row;
-     justify-content: center; */
-     width: 100%;
-     text-align: center;
+   /*  display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    width: 100%;
+    text-align: center;
+  
+    
+}
+.card {
+  display: inline-block; 
+    width: 25%;
+    text-align: center;
+  /*   background-color: red; */
+
+    
+}
+.container-card .card:nth-child(2){
+     width: 48%;
+     position: relative;
+     margin: 0 auto;
+   /*   background-color: antiquewhite; */
+}
+
+#container-circle{
+ margin: 0 auto;
+  position: relative;
+  width: 500px;
+}
+
+.position {
+   /*   width: 160px;
+     height: 160px; */
+     cursor: pointer;
+}
+.progress-circle{
+  width: 500px;
+  height: 500px;
+ margin-top: 0;
+}
+
+.inner{
+    fill: none;
+    stroke: #D20094 ;
+    stroke-width: 60px;
+}
+.outer {
+    fill: none;
+    stroke: #00ffff;
+    stroke-width: 60px;
+    stroke-dasharray: 0 999;
+    stroke-dashoffset: 0px;
+    transition: stroke-dasharray 0.5s linear 0s; 
+}
+.text {
+    width: 200px;
+    position: absolute;
+    top: 133px;
+    left: 146px;
+    text-align: center;
+
    
-     
- }
- .card {
-   display: inline-block; 
-     width: 25%;
-     height: 25vh;
-     text-align: center;
-   /*   background-color: red; */
- 
-     
- }
- .container-card .card:nth-child(2){
-      width: 49%;
-      height: 40vh;
-      position: relative;
-    /*   background-color: antiquewhite; */
- }
- 
- #container-circle{
-     
-   position: absolute;
-   left: 25%;
-   top: 0%;
- }
- 
- .position {
-    /*   width: 160px;
-      height: 160px; */
-      cursor: pointer;
- }
- .progress-circle{
-   width: 30vw;
-   height: 50vh;
-  margin-top: 0;
- }
- 
- .inner{
-     fill: none;
-     stroke: #D20094 ;
-     stroke-width: 60px;
- }
- .outer {
-     fill: none;
-     stroke: #00ffff;
-     stroke-width: 60px;
-     stroke-dasharray: 0 999;
-     stroke-dashoffset: 0px;
-     transition: stroke-dasharray 0.5s linear 0s; 
- }
- .text {
-     width: 55%;
-     position: absolute;
-     top: 25%;
-     left: 5%;
-     text-align: center;
- }
-   .buttonSimple {
-     background-color: transparent;
-     border: 1px solid white;
-     font-size: 30px;
-     font-weight: bold;
-     text-align: center; 
-     width: fit-content;
-     padding: 10px 40px;
-     margin: 0px;
-     color: white;
- } 
+}
+.text p{
+  font-size: 16px;
+}
+
+ #text2{
+  color:#00ffff;
+}
+
  /* ---------------------- SECONDA PAGINA ----------------------------*/
  /* css 2page- Milena */
 
@@ -231,6 +228,7 @@ h1,h2{
     margin-left: 80%;
     position:relative;
  }
+
 
    #timerCanvas {
     position:relative;
