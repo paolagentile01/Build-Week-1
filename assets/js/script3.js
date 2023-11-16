@@ -48,7 +48,7 @@ function mssgFailed() {
   let mssgFailedT1 = document.querySelector("#text1");
   mssgFailedT1.innerText = "Failed!";
   let mssgFailedT2 = document.querySelector("#text2");
-  mssgFailedT2.innerText= "🙁";
+  mssgFailedT2.innerText= "😢";
   let mssgFailedT3 = document.querySelector("#text3")
   mssgFailedT3.innerText= "We are sorry"
   let mssgFailedT4 = document.querySelector("#text4")
