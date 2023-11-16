@@ -153,7 +153,6 @@ h1,h2{
 .card {
   display: inline-block; 
     width: 25%;
-    height: 25vh;
     text-align: center;
   /*   background-color: red; */
 
@@ -161,14 +160,15 @@ h1,h2{
 }
 .container-card .card:nth-child(2){
      width: 48%;
-     height: 40vh;
      position: relative;
+     margin: 0 auto;
    /*   background-color: antiquewhite; */
 }
 
 #container-circle{
-  left: 25%;
-  top: 0%;
+ margin: 0 auto;
+  position: relative;
+  width: 500px;
 }
 
 .position {
@@ -196,11 +196,20 @@ h1,h2{
     transition: stroke-dasharray 0.5s linear 0s; 
 }
 .text {
-    width: 100%;
+    width: 200px;
     position: absolute;
-    top: 241px;
-   /*  left: %; */
+    top: 133px;
+    left: 146px;
     text-align: center;
+
+   
+}
+.text p{
+  font-size: 16px;
+}
+
+ #text2{
+  color:#00ffff;
 }
 
  .buttonSimple {
