@@ -10,6 +10,69 @@ body{
     color: white;
 }
 
+/*in questo file trovi le modifiche da apportare al css generale per silizzare pagina 1
+il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
+/*PAGINA 1*/
+
+#contenitoreP1{
+    margin-left: 15%;
+    line-height: 1.4;
+    margin-bottom: 0%;
+}
+/*TITOLI DI TESTA*/
+#h1P1{
+    font-weight: lighter;
+    line-height: 0.8;
+    margin-top: 5%;
+    font-size: 70px;
+}
+
+#h2P1{
+    color: rgb(165, 2, 111);
+    margin-bottom: 0;
+    font-size: 60px;
+}
+/*CORPO CENTRALE*/
+#pP1{ 
+    margin-top: 0;
+}
+
+#ulP1{
+    padding-inline-start:12px;
+}
+
+/*FORM*/
+#formP1{margin-top: 4%;}
+
+#checkboxP1{
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    width : 20px; 
+    height : 20px;
+}
+
+#aP1 {
+    font-weight: bolder;
+}
+
+#fakeButton1{
+    background-color: aqua;
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 23px 0px aqua;
+    margin-left: 12%;
+}
+
+
+#fakeButton1 a{
+    text-decoration: none;
+}
+
+
+
 /*SEZIONE HEADER*/
 /*logo epicode*/
 .logo{
