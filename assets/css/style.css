@@ -62,12 +62,14 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     padding: 15px;
     font-weight: bold;
     margin-left: 12%;
+    cursor: pointer;
 }
 
 
 #fakeButton1 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .bottone-active{
