@@ -220,7 +220,15 @@ h1,h2{
  #text2{
   color:#00ffff;
 }
->>>>>>>>> Temporary merge branch 2
+
+ /* ---------------------- SECONDA PAGINA ----------------------------*/
+ /* css 2page- Milena */
+
+ #timerbox{
+    margin-left: 80%;
+    position:relative;
+ }
+
 
    #timerCanvas {
     position:relative;
