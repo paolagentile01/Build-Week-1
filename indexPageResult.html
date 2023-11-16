@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img src="assets/img/epicode_logo.png" alt="logo Epicode" class="logo" />
+          <img src="assets/img/epicode_logo.png" alt="logo di Epicode" class="logo"/>
     </header>
     <main>
         <div class="container-principale caratteriCentrati">
@@ -23,38 +23,37 @@
                 <div class="card">
                     <div class="position">
                         <h2>Correct</h2><!-- fisso -->
-                        <h2><strong>66.7%</strong></h2><!-- valore js -->
-                        <p>4/6 questions</p><!-- valore js -->
+                        <h2 id="correct"><strong></strong></h2><!-- valore js -->
+                        <p id="correctQuestions"></p><!-- valore js -->
                     </div>
 
                 </div>
 
                 <div class="card">
                     <div class="position" id="container-circle">
-                        <svg class="progress-circle">
-                            <circle class="inner" cx="280" cy="280" r="180"></circle>
-                            <circle class="outer" cx="280" cy="280" r="180"></circle>
-                        </svg>
                         <div class="text">
                             <spam>
                                 <h4>
                                     <spam class="tex1"></spam> <!-- valore js -->
-                                    <spam>You passed the exam.</spam><!-- valore js --> -->
+                                   <!--  <spam>You passed the exam.</spam> --><!-- valore js --> 
                                 </h4>
-                                   <p>Well'send you the certificate in few minutes. </p><!-- valore js --> 
-                                     <p>Check your email (including promotions / span folder)</p><!-- valore js  -->
+                                   <!-- <p>Well'send you the certificate in few minutes. </p> --><!-- valore js --> 
+                                     <!-- <p>Check your email (including promotions / span folder)</p> --><!-- valore js  -->
                                
                             </spam>
                         </div>
+                        <svg class="progress-circle">
+                            <circle class="inner" cx="250" cy="250" r="180"></circle>
+                            <circle class="outer" cx="250" cy="250" r="180"></circle>
+                        </svg>
                     </div>
                 </div>
                 <div class="card ">
                     <div class="position">
                         <h2>Wrong</h2>
-                        <h2><strong>33,3%</strong></h2>
-                        <p>2/6 questions</p>
+                        <h2 id="wrong"><strong></strong></h2>
+                        <p id="wrongQuestions">2/6 questions</p>
                     </div>
-
                 </div>
             </div>
 
@@ -62,9 +61,11 @@
         </div>
     </main>
     <footer  class="caratteriCentrati">
+        <a href="feedback.html">
         <button class="buttonSimple" >RATE US</button>
+        </a>
     </footer>
-    <script src="assets/js/scriptPageResult.js"></script>
+    <script src="assets/js/script3.js"></script>
 </body>
 
 </html>

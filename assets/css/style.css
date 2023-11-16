@@ -57,21 +57,30 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 }
 
 #fakeButton1{
-    background-color: aqua;
     border: none;
     font-size: 30px;
     padding: 15px;
     font-weight: bold;
-    box-shadow: 0px 0px 23px 0px aqua;
     margin-left: 12%;
+    cursor: pointer;
 }
 
 
 #fakeButton1 a{
     text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
+.bottone-active{
+    background-color: aqua;
+    box-shadow: 0px 0px 12px 0px aqua;
+}
 
+.bottone-disabled{
+    background-color: lightgray;
+    box-shadow: 0px 0px 12px 0px lightgrey;
+}
 
 /*SEZIONE HEADER*/
 /*logo epicode*/
@@ -108,6 +117,7 @@ h1,h2{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
+    color: white;
    
 }
 
@@ -131,9 +141,8 @@ h1,h2{
 
 }
 
-
-.stellineFeedback svg{
-    fill: gray;
+.stellineFeedback:hover{
+    filter: invert(87%) sepia(55%) saturate(1654%) hue-rotate(103deg) brightness(102%) contrast(105%);
 }
 
 /*pagina 2*/
@@ -204,45 +213,7 @@ h1,h2{
      left: 5%;
      text-align: center;
  }
- 
- /* ---------------------- SECONDA PAGINA ----------------------------*/
- /* css 2page- Milena */
- /*
- .mainBox div {
-     margin: 0 auto;
-     padding: 20px;
-     text-align: center;
-   }
-   
-   h1 {
-     font-size: 60px;
-     font-weight: 100;
-   }
-   
-   .risposte {
-     padding-left: 20em;
-     padding-right: 20em;
-     margin: 1rem;
-     width: 20%;
-     min-height: 10em;
-     border-radius: 80px;
-     background-color: rgba(255, 255, 255, 0.5);
-     color: white;
-   }
-   
-   .risposte span{
-       font-size:2em;
-   }
-   
-   #questions {
-       text-align: center;
-       padding-top: 4%;
-       font-size: 2rem;
-       font-weight: 100;
-   }
-   
-   
-  .buttonSimple {
+   .buttonSimple {
      background-color: transparent;
      border: 1px solid white;
      font-size: 30px;
@@ -252,10 +223,11 @@ h1,h2{
      padding: 10px 40px;
      margin: 0px;
      color: white;
- }
- */
- 
- 
+ } 
+ /* ---------------------- SECONDA PAGINA ----------------------------*/
+ /* css 2page- Milena */
+ /*
+
  #timerbox{
     margin-left: 80%;
     position:relative;
@@ -314,6 +286,7 @@ h1,h2{
  
  .risposte:hover{
     background-color: #D20094;
+
 }
 
 .risposte span{
@@ -331,5 +304,4 @@ h1,h2{
      color: white;
      font-size: 2rem;
  }
-
 /* ---------------------------- FINE SECONDA PAGINA -------------------------*/
