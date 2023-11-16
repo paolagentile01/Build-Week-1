@@ -108,6 +108,7 @@ h1,h2{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
+    color: white;
    
 }
 
@@ -131,9 +132,8 @@ h1,h2{
 
 }
 
-
-.stellineFeedback svg{
-    fill: gray;
+.stellineFeedback:hover{
+    filter: invert(87%) sepia(55%) saturate(1654%) hue-rotate(103deg) brightness(102%) contrast(105%);
 }
 
 /*pagina 2*/
