@@ -220,25 +220,7 @@ h1,h2{
  #text2{
   color:#00ffff;
 }
-
- .buttonSimple {
-    background-color: transparent;
-    border: 1px solid white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center; 
-    width: fit-content;
-    padding: 10px 40px;
-    margin: 0px;
-    color: white;
-}
-
-/* css 2 Page  Milena e Gianluca*/
-
- #timerbox{
-    margin-left: 80%;
-    position:relative;
- }
+>>>>>>>>> Temporary merge branch 2
 
    #timerCanvas {
     position:relative;
