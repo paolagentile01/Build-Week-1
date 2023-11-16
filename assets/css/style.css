@@ -205,8 +205,9 @@ h1,h2{
      text-align: center;
  }
  
- 
+ /* ---------------------- SECONDA PAGINA ----------------------------*/
  /* css 2page- Milena */
+ /*
  .mainBox div {
      margin: 0 auto;
      padding: 20px;
@@ -252,44 +253,41 @@ h1,h2{
      margin: 0px;
      color: white;
  }
- 
- 
- 
- 
+ */
  
  
  #timerbox{
-     margin-left: 80%;
+    margin-left: 80%;
+    position:relative;
  }
- 
+
+   #timerCanvas {
+    position:relative;
+    border:10px solid #00ffff;
+    border-radius:200px;
+    width: 100px;
+    background-color: transparent;
+    z-index: 10;
+ }
+
  #time {
-     color:#00ffff;
-     font-family:Arial;
-     font-size:40px;
-     position:absolute;
-     top: 2px;
-     width:200px;
-     height:50px;
-     text-align:center;
-     line-height:50px;
-     border-radius:5px;
+    z-index: 1;
+    color:white;
+    font-family:Arial;
+    font-size:50px;
+    position:absolute;
+    text-align:center;
+    border-radius:5px;
+    top: 30px;
+    left: 45px;
  }
- 
-   #stopwatch {
-     position:absolute;
-     border:7px solid #00ffff;
-     margin-top: -40px;
-     border-radius:200px;
-     width: 100px;
- }
- 
+
  #h1box{
      padding: 10px;
      margin: 3em;
  }
  
  #domanda{
- 
      color: white;
      font-size: 6em;
      text-align: center;
@@ -304,39 +302,34 @@ h1,h2{
  }
  
  .risposte{
-     border-radius: 80px;
-     height: 10em;
-     width: 30%;
-     background-color: rgba(255, 255, 255, 0.5);
-     border-top-color: white;
-     border-bottom: none;
-     color: white;
-     margin: 1rem;
- 
+    border-radius: 80px;
+    height: 8em;
+    width: 30em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 4px solid white;
+    border-bottom: none;
+    color: white;
+    margin: 1rem;
  }
  
- .risposte span{
-     font-size: 2em;
- }
- 
- #buttonbox{
-     text-align: center;
-     padding: 2rem;
- }
- 
- #btnconferma{
-     width: 10%;
-     min-height: 5%;
-     border-radius: 30px;
-     background-color: #ac068b;
-     border-top-color: white;
-     color: white;
- }
- 
- 
+ .risposte:hover{
+    background-color: #D20094;
+}
+
+.risposte span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#conteggioDomande{
+    margin-top: 2em;
+    padding: 4em;
+}
+
  #avanzamento{
      text-align: center;
      color: white;
      font-size: 2rem;
  }
 
+/* ---------------------------- FINE SECONDA PAGINA -------------------------*/
