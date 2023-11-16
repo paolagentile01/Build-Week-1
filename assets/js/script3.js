@@ -1,4 +1,4 @@
-let resultTest = 66.7;
+let resultTest = 70;
 let failed = "hai fallito";
 let congratulazioni = "Congratulation !";
 
@@ -25,3 +25,13 @@ function message(result) {
   scoreWrong.innerHTML =( 100 - result) + '%';
  }
  percentage(resultTest)
+
+ function scoreQuestions(result) {
+  numberQuestions = 10;
+  total = result/numberQuestions;
+  let scoreCorrectQuestions = document.querySelector('#correctQuestions');
+  scoreCorrectQuestions.innerHTML= total + `/${numberQuestions} questions`;
+ let scoreWrongQuestions = document.querySelector('#wrongQuestions');
+ scoreWrongQuestions.innerHTML = ( numberQuestions - total)+ `/${numberQuestions} questions`;
+ }
+ scoreQuestions(resultTest);
