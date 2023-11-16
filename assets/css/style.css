@@ -1,17 +1,82 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
     font-family: 'Inter', sans-serif;
-    background-image: url(../img/bg.jpg);
+    background-image: url(/assets/img/bg.jpg);
     background-size: cover;
     margin: 0;
+    color: white;
 }
+
+/*in questo file trovi le modifiche da apportare al css generale per silizzare pagina 1
+il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
+/*PAGINA 1*/
+
+#contenitoreP1{
+    margin-left: 15%;
+    line-height: 1.4;
+    margin-bottom: 0%;
+}
+/*TITOLI DI TESTA*/
+#h1P1{
+    font-weight: lighter;
+    line-height: 0.8;
+    margin-top: 5%;
+    font-size: 70px;
+}
+
+#h2P1{
+    color: rgb(165, 2, 111);
+    margin-bottom: 0;
+    font-size: 60px;
+}
+/*CORPO CENTRALE*/
+#pP1{ 
+    margin-top: 0;
+}
+
+#ulP1{
+    padding-inline-start:12px;
+}
+
+/*FORM*/
+#formP1{margin-top: 4%;}
+
+#checkboxP1{
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    width : 20px; 
+    height : 20px;
+}
+
+#aP1 {
+    font-weight: bolder;
+}
+
+#fakeButton1{
+    background-color: aqua;
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 23px 0px aqua;
+    margin-left: 12%;
+}
+
+
+#fakeButton1 a{
+    text-decoration: none;
+}
+
+
 
 /*SEZIONE HEADER*/
 /*logo epicode*/
 .logo{
-    width: 300px;
+    width: 200px;
     padding: 50px;
 }
 
@@ -20,13 +85,14 @@ body{
     text-align: center;
 }
 
+h1,h2{
+    font-family: 'Outfit',sans-serif;
+}
 .caratteriCentrati h2{
-    color: white;
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .caratteriCentrati p{
-    color: white;
     font-size: 25px;
 }
 
@@ -42,7 +108,7 @@ body{
     padding-left: 20px;
     padding-bottom: 20px;
     width: 100%;
-    color: white;
+   
 }
 
 .formDesign{
@@ -64,3 +130,213 @@ body{
     box-shadow: 0px 0px 23px 0px aqua;
 
 }
+
+
+.stellineFeedback svg{
+    fill: gray;
+}
+
+/*pagina 2*/
+
+
+/* css 3page- Esperanza */
+
+.container-card {
+    /*  display: flex;
+     flex-direction: row;
+     justify-content: center; */
+     width: 100%;
+     text-align: center;
+   
+     
+ }
+ .card {
+   display: inline-block; 
+     width: 25%;
+     height: 25vh;
+     text-align: center;
+   /*   background-color: red; */
+ 
+     
+ }
+ .container-card .card:nth-child(2){
+      width: 49%;
+      height: 40vh;
+      position: relative;
+    /*   background-color: antiquewhite; */
+ }
+ 
+ #container-circle{
+     
+   position: absolute;
+   left: 25%;
+   top: 0%;
+ }
+ 
+ .position {
+    /*   width: 160px;
+      height: 160px; */
+      cursor: pointer;
+ }
+ .progress-circle{
+   width: 30vw;
+   height: 50vh;
+  margin-top: 0;
+ }
+ 
+ .inner{
+     fill: none;
+     stroke: #D20094 ;
+     stroke-width: 60px;
+ }
+ .outer {
+     fill: none;
+     stroke: #00ffff;
+     stroke-width: 60px;
+     stroke-dasharray: 0 999;
+     stroke-dashoffset: 0px;
+     transition: stroke-dasharray 0.5s linear 0s; 
+ }
+ .text {
+     width: 55%;
+     position: absolute;
+     top: 25%;
+     left: 5%;
+     text-align: center;
+ }
+ 
+ 
+ /* css 2page- Milena */
+ .mainBox div {
+     margin: 0 auto;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   h1 {
+     font-size: 60px;
+     font-weight: 100;
+   }
+   
+   .risposte {
+     padding-left: 20em;
+     padding-right: 20em;
+     margin: 1rem;
+     width: 20%;
+     min-height: 10em;
+     border-radius: 80px;
+     background-color: rgba(255, 255, 255, 0.5);
+     color: white;
+   }
+   
+   .risposte span{
+       font-size:2em;
+   }
+   
+   #questions {
+       text-align: center;
+       padding-top: 4%;
+       font-size: 2rem;
+       font-weight: 100;
+   }
+   
+   
+  .buttonSimple {
+     background-color: transparent;
+     border: 1px solid white;
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center; 
+     width: fit-content;
+     padding: 10px 40px;
+     margin: 0px;
+     color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #timerbox{
+     margin-left: 80%;
+ }
+ 
+ #time {
+     color:#00ffff;
+     font-family:Arial;
+     font-size:40px;
+     position:absolute;
+     top: 2px;
+     width:200px;
+     height:50px;
+     text-align:center;
+     line-height:50px;
+     border-radius:5px;
+ }
+ 
+   #stopwatch {
+     position:absolute;
+     border:7px solid #00ffff;
+     margin-top: -40px;
+     border-radius:200px;
+     width: 100px;
+ }
+ 
+ #h1box{
+     padding: 10px;
+     margin: 3em;
+ }
+ 
+ #domanda{
+ 
+     color: white;
+     font-size: 6em;
+     text-align: center;
+ }
+ 
+ /*risposte domande*/
+ 
+ #tastibox{
+     padding-left: 20em;
+     padding-right: 20em;
+     text-align: center;
+ }
+ 
+ .risposte{
+     border-radius: 80px;
+     height: 10em;
+     width: 30%;
+     background-color: rgba(255, 255, 255, 0.5);
+     border-top-color: white;
+     border-bottom: none;
+     color: white;
+     margin: 1rem;
+ 
+ }
+ 
+ .risposte span{
+     font-size: 2em;
+ }
+ 
+ #buttonbox{
+     text-align: center;
+     padding: 2rem;
+ }
+ 
+ #btnconferma{
+     width: 10%;
+     min-height: 5%;
+     border-radius: 30px;
+     background-color: #ac068b;
+     border-top-color: white;
+     color: white;
+ }
+ 
+ 
+ #avanzamento{
+     text-align: center;
+     color: white;
+     font-size: 2rem;
+ }
+
