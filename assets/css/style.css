@@ -151,161 +151,157 @@ h1,h2{
 /* css 3page- Esperanza */
 
 .container-card {
-   /*  display: flex;
-    flex-direction: row;
-    justify-content: center; */
-    width: 100%;
-    text-align: center;
-  
-    
-}
-.card {
-  display: inline-block; 
-    width: 25%;
-    height: 25vh;
-    text-align: center;
-  /*   background-color: red; */
+    /*  display: flex;
+     flex-direction: row;
+     justify-content: center; */
+     width: 100%;
+     text-align: center;
+   
+     
+ }
+ .card {
+   display: inline-block; 
+     width: 25%;
+     height: 25vh;
+     text-align: center;
+   /*   background-color: red; */
+ 
+     
+ }
+ .container-card .card:nth-child(2){
+      width: 49%;
+      height: 40vh;
+      position: relative;
+    /*   background-color: antiquewhite; */
+ }
+ 
+ #container-circle{
+     
+   position: absolute;
+   left: 25%;
+   top: 0%;
+ }
+ 
+ .position {
+    /*   width: 160px;
+      height: 160px; */
+      cursor: pointer;
+ }
+ .progress-circle{
+   width: 30vw;
+   height: 50vh;
+  margin-top: 0;
+ }
+ 
+ .inner{
+     fill: none;
+     stroke: #D20094 ;
+     stroke-width: 60px;
+ }
+ .outer {
+     fill: none;
+     stroke: #00ffff;
+     stroke-width: 60px;
+     stroke-dasharray: 0 999;
+     stroke-dashoffset: 0px;
+     transition: stroke-dasharray 0.5s linear 0s; 
+ }
+ .text {
+     width: 55%;
+     position: absolute;
+     top: 25%;
+     left: 5%;
+     text-align: center;
+ }
+   .buttonSimple {
+     background-color: transparent;
+     border: 1px solid white;
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center; 
+     width: fit-content;
+     padding: 10px 40px;
+     margin: 0px;
+     color: white;
+ } 
+ /* ---------------------- SECONDA PAGINA ----------------------------*/
+ /* css 2page- Milena */
+ /*
 
-    
-}
-.container-card .card:nth-child(2){
-     width: 48%;
-     height: 40vh;
-     position: relative;
-   /*   background-color: antiquewhite; */
-}
-
-#container-circle{
-  left: 25%;
-  top: 0%;
-}
-
-.position {
-   /*   width: 160px;
-     height: 160px; */
-     cursor: pointer;
-}
-.progress-circle{
-  width: 500px;
-  height: 500px;
- margin-top: 0;
-}
-
-.inner{
-    fill: none;
-    stroke: #D20094 ;
-    stroke-width: 60px;
-}
-.outer {
-    fill: none;
-    stroke: #00ffff;
-    stroke-width: 60px;
-    stroke-dasharray: 0 999;
-    stroke-dashoffset: 0px;
-    transition: stroke-dasharray 0.5s linear 0s; 
-}
-.text {
-    width: 100%;
-    position: absolute;
-    top: 241px;
-   /*  left: %; */
-    text-align: center;
-}
-
- .buttonSimple {
-    background-color: transparent;
-    border: 1px solid white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center; 
-    width: fit-content;
-    padding: 10px 40px;
-    margin: 0px;
-    color: white;
-    cursor: pointer;
-}
-
-/* css 2 Page  Milena e Gianluca*/
-
-#timerbox{
+ #timerbox{
     margin-left: 80%;
-}
+    position:relative;
+ }
 
-#time {
-    color:#00ffff;
-    font-family:Arial;
-    font-size:40px;
-    position:absolute;
-    top: 2px;
-    width:200px;
-    height:50px;
-    text-align:center;
-    line-height:50px;
-    border-radius:5px;
-}
-
-  #stopwatch {
-    position:absolute;
-    border:7px solid #00ffff;
-    margin-top: -40px;
+   #timerCanvas {
+    position:relative;
+    border:10px solid #00ffff;
     border-radius:200px;
     width: 100px;
-}
+    background-color: transparent;
+    z-index: 10;
+ }
 
-#h1box{
-    padding: 10px;
-    margin: 3em;
-}
+ #time {
+    z-index: 1;
+    color:white;
+    font-family:Arial;
+    font-size:50px;
+    position:absolute;
+    text-align:center;
+    border-radius:5px;
+    top: 30px;
+    left: 45px;
+ }
 
-#domanda{
-
-    color: white;
-    font-size: 6em;
-    text-align: center;
-}
-
-/*risposte domande*/
-
-#tastibox{
-    padding-left: 20em;
-    padding-right: 20em;
-    text-align: center;
-}
-
-.risposte{
+ #h1box{
+     padding: 10px;
+     margin: 3em;
+ }
+ 
+ #domanda{
+     color: white;
+     font-size: 6em;
+     text-align: center;
+ }
+ 
+ /*risposte domande*/
+ 
+ #tastibox{
+     padding-left: 20em;
+     padding-right: 20em;
+     text-align: center;
+ }
+ 
+ .risposte{
     border-radius: 80px;
-    height: 10em;
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-top-color: white;
+    height: 8em;
+    width: 30em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top: 4px solid white;
     border-bottom: none;
     color: white;
     margin: 1rem;
+ }
+ 
+ .risposte:hover{
+    background-color: #D20094;
 
 }
 
 .risposte span{
     font-size: 2em;
+    font-weight: bold;
 }
 
-#buttonbox{
-    text-align: center;
-    padding: 2rem;
+#conteggioDomande{
+    margin-top: 2em;
+    padding: 4em;
 }
 
-#btnconferma{
-    width: 10%;
-    min-height: 5%;
-    border-radius: 30px;
-    background-color: #ac068b;
-    border-top-color: white;
-    color: white;
-}
-
-
-#avanzamento{
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-}
-
+ #avanzamento{
+     text-align: center;
+     color: white;
+     font-size: 2rem;
+ }
+/* ---------------------------- FINE SECONDA PAGINA -------------------------*/
