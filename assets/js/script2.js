@@ -55,9 +55,6 @@ function countdown() {
   })();
 */
 
-
-
-
 const questions = [
   {
     category: "Science: Computers",
@@ -236,10 +233,15 @@ function numberQuestions() {
   indice++;
 }
 
-
 function result() {
   window.location.href = "indexPageResult.html";
   console.log("Quiz completed! Score: " + score);
 }
-
 showQuiz();
+/* ho dato un valore a score perché non arriva nulla, ma adesso ho collegato la variable score con la page 3 ... ESPI*/
+score=50;
+console.log(score)
+window.localStorage.setItem("scorePage2", score);
+
+console.log(window.localStorage.getItem('scorePage2'));
+// Store

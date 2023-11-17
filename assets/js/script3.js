@@ -1,4 +1,5 @@
-let resultTest = 40;
+let resultTest = localStorage.getItem("scorePage2");
+console.log(resultTest)
 let failed = "hai fallito";
 let el = document.querySelector(".text");
 function progressBar(resultVal, totalPercentageVal) {
@@ -54,3 +55,4 @@ function mssgFailed() {
   let mssgFailedT4 = document.querySelector("#text4")
   mssgFailedT4.innerText= "next time it will be better"
 }
+
