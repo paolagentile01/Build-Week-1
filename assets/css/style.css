@@ -8,6 +8,7 @@ body{
     background-size: cover;
     margin: 0;
     color: white;
+    font-weight: 300;
 }
 
 /*in questo file trovi le modifiche da apportare al css generale per silizzare pagina 1
@@ -21,7 +22,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 }
 /*TITOLI DI TESTA*/
 #h1P1{
-    font-weight: lighter;
+    font-weight: 300;
     line-height: 0.8;
     margin-top: 5%;
     font-size: 70px;
@@ -30,7 +31,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 #h2P1{
     color: rgb(165, 2, 111);
     margin-bottom: 0;
-    font-size: 60px;
+    font-size: 38px;
 }
 /*CORPO CENTRALE*/
 #pP1{ 
@@ -38,9 +39,12 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 }
 
 #ulP1{
-    padding-inline-start:12px;
+    margin-top: 40px;
 }
 
+#ulP1 li{
+    margin-bottom: 3px;
+}
 /*FORM*/
 #formP1{margin-top: 4%;}
 
@@ -58,8 +62,8 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 
 #fakeButton1{
     border: none;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 24px;
+    padding: 15px 50px;
     font-weight: bold;
     margin-left: 12%;
     cursor: pointer;
@@ -86,8 +90,9 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 /*logo epicode*/
 .logo{
     width: 200px;
-    padding: 50px;
+    margin: 50px;
 }
+
 
 /*SEZIONE MAIN*/
 .caratteriCentrati{
@@ -134,16 +139,19 @@ h1,h2{
 #fakeButton{
     background-color: aqua;
     border: none;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 24px;
+    padding: 15px 40px;
     font-weight: bold;
     box-shadow: 0px 0px 23px 0px aqua;
 
 }
+.star1 {
+    display: inline-block;
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+    }
 
-.stellineFeedback:hover{
-    filter: invert(87%) sepia(55%) saturate(1654%) hue-rotate(103deg) brightness(102%) contrast(105%);
-}
 
 /*pagina 2*/
 
@@ -260,7 +268,7 @@ h1,h2{
  
  #domanda{
      color: white;
-     font-size: 6em;
+     font-size: 60px;
      text-align: center;
  }
  
@@ -294,13 +302,14 @@ h1,h2{
 }
 
 #conteggioDomande{
+    text-align: center;
     margin-top: 2em;
     padding: 4em;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
  #avanzamento{
-     text-align: center;
      color: white;
-     font-size: 2rem;
  }
 /* ---------------------------- FINE SECONDA PAGINA -------------------------*/

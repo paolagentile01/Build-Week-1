@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="it">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina numero 4</title>
+    <title>Stelle</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <header>
         <img src="assets/img/epicode_logo.png" alt="titoloLogo" class="logo">
@@ -18,30 +16,31 @@
         <p>From 0 to 10,how likely are you to recommend Epicode <br>
             to a friend or a colleague?
         </p>
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <img src="assets/img/Star_empty.svg" alt="logoStelline" class="stellineFeedback">
-        <br />
-        <br />
-        <p id="spazioImmagini">Leave us an open feedback about your experience so far</p>
+    <!-- Creazione delle 10 stelle nere -->
+    <div id="stars-container">
+        <span class="star1" onclick="coloraStelle(1)">★</span>
+        <span class="star1" onclick="coloraStelle(2)">★</span>
+        <span class="star1" onclick="coloraStelle(3)">★</span>
+        <span class="star1" onclick="coloraStelle(4)">★</span>
+        <span class="star1" onclick="coloraStelle(5)">★</span>
+        <span class="star1" onclick="coloraStelle(6)">★</span>
+        <span class="star1" onclick="coloraStelle(7)">★</span>
+        <span class="star1" onclick="coloraStelle(8)">★</span>
+        <span class="star1" onclick="coloraStelle(9)">★</span>
+        <span class="star1" onclick="coloraStelle(10)">★</span>
+    </div>
+    <br />
+    <p id="spazioImmagini">Leave us an open feedback about your experience so far</p>
 
-        <form class="formDesign">
-            <input type="text" name="input_testo" placeholder="Write your comment here">
-        </form>
-    </main>
+    <form class="formDesign">
+        <input type="text" name="input_testo" placeholder="Write your comment here">
+    </form>
+</main>
 
-    <footer class="footerCentrato">
-            <button id="fakeButton">MORE INFO</button>
-    </footer>
-
-    <script src="assets/js/feedback.js"></script>
+<footer class="footerCentrato">
+        <button id="fakeButton">MORE INFO</button>
+</footer>
+<script src="assets/js/feedback.js"></script>
 </body>
-
 </html>
+
