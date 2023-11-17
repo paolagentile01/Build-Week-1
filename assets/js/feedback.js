@@ -4,7 +4,7 @@
 
     for (var i = 0; i < stelle.length; i++) {
         if (i < numeroStella) {
-            stelle[i].style.color = 'gold';
+            stelle[i].style.color = 'aqua';
         } else {
             stelle[i].style.color = 'black';
         }
