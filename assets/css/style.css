@@ -278,7 +278,7 @@ h1,h2{
  
  #domanda{
      color: white;
-     font-size: 6em;
+     font-size: 60px;
      text-align: center;
  }
  
@@ -312,13 +312,14 @@ h1,h2{
 }
 
 #conteggioDomande{
+    text-align: center;
     margin-top: 2em;
     padding: 4em;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
  #avanzamento{
-     text-align: center;
      color: white;
-     font-size: 2rem;
  }
 /* ---------------------------- FINE SECONDA PAGINA -------------------------*/
