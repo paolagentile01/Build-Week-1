@@ -244,7 +244,7 @@ function onAnswer(answer) {
     window.localStorage.setItem("scorePage2", newResult);
   }
   onDisabled(true);
-  timeLeft = -1;
+  timeLeft = 0;
 }
 
 // START

@@ -286,6 +286,7 @@ h1,h2{
     border-bottom: none;
     color: white;
     margin: 1rem;
+    cursor: pointer;
  }
  
  .risposte:hover{
