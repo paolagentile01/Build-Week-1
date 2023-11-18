@@ -122,11 +122,7 @@ const questions = [
     question:
       "What is the code name for the mobile operating system Android 7.0?",
     correct_answer: "Nougat",
-    incorrect_answers: [
-      "Ice Cream Sandwich",
-      "Jelly Bean",
-      "Marshmallow",
-    ],
+    incorrect_answers: ["Ice Cream Sandwich", "Jelly Bean", "Marshmallow"],
   },
   {
     category: "Science: Computers",
@@ -160,27 +156,25 @@ let score = 0;
 let timeLeft = 10;
 let domanda = document.getElementById("domanda");
 let risposte = document.querySelectorAll("span");
+let buttons = document.querySelectorAll("button");
 let blocco = document.querySelectorAll(".blocco");
 let avanzamentoDomande = document.getElementById("avanzamento");
 
 let index = 0;
-let indice = 1;
 let timerId;
 
-function showQuiz() {
-  index = 0;
-  indice = 1;
-  intervalStart()
-  showQuestions();
-}
-
+// UTILS
 function intervalStart() {
   timerId = setInterval(countdown, 1000);
 }
 
+function result() {
+  window.location.href = "indexPageResult.html";
+}
+
 function countdown() {
   if (timeLeft === -1) {
-    if (index >= questions.length) {
+    if (index > questions.length - 1) {
       clearInterval(timerId);
       result();
     } else {
@@ -194,10 +188,32 @@ function countdown() {
   }
 }
 
+function onDisabled(status) {
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].disabled = status;
+  }
+}
+
+// QUESTIONS
+function numberQuestions() {
+  avanzamentoDomande.innerText = index + 1;
+  index++;
+}
+
 function showQuestions() {
-  numberQuestions();
+  onDisabled(false);
   domanda.innerText = questions[index].question;
   showAnswers();
+  numberQuestions();
+}
+
+// ANSWERS
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 function showAnswers() {
@@ -217,31 +233,24 @@ function showAnswers() {
   for (let i = 0; i < arrayShuffle.length; i++) {
     risposte[i].innerText = arrayShuffle[i];
   }
-  index++;
 }
 
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+function onAnswer(answer) {
+  if (questions[index - 1].correct_answer === risposte[answer].innerText) {
+    // INDEX = 0 --> INDEX = 1
+    let newResult = (score += 10);
+    window.localStorage.setItem("scorePage2", newResult);
   }
-  return array;
+  onDisabled(true);
+  timeLeft = 0;
 }
 
-function numberQuestions() {
-  avanzamentoDomande.innerText = indice;
-  indice++;
+// START
+function showQuiz() {
+  localStorage.clear();
+  index = 0;
+  intervalStart();
+  showQuestions();
 }
 
-function result() {
-  window.location.href = "indexPageResult.html";
-  console.log("Quiz completed! Score: " + score);
-}
 showQuiz();
-/* ho dato un valore a score perché non arriva nulla, ma adesso ho collegato la variable score con la page 3 ... ESPI*/
-score=50;
-console.log(score)
-window.localStorage.setItem("scorePage2", score);
-
-console.log(window.localStorage.getItem('scorePage2'));
-// Store
