@@ -172,6 +172,9 @@ function intervalStart() {
 
 function countdown() {
   if (timeLeft === -1) {
+    score += 0;
+    newResult = score;
+    window.localStorage.setItem("scorePage2", newResult);
     if (index > questions.length - 1) {
       clearInterval(timerId);
       result();
@@ -236,11 +239,12 @@ function showAnswers() {
 function onAnswer(answer) {
   if (questions[index - 1].correct_answer === risposte[answer].innerText) {
     // INDEX = 0 --> INDEX = 1
-    newResult = (score += 10);
+    score += 10;
+    newResult = score;
     window.localStorage.setItem("scorePage2", newResult);
   }
   onDisabled(true);
-  timeLeft = 0;
+  timeLeft = -1;
 }
 
 // START
