@@ -159,7 +159,7 @@ let risposte = document.querySelectorAll("span");
 let buttons = document.querySelectorAll("button");
 let blocco = document.querySelectorAll(".blocco");
 let avanzamentoDomande = document.getElementById("avanzamento");
-
+let newResult = 0;
 let index = 0;
 let timerId;
 
@@ -168,12 +168,13 @@ function intervalStart() {
   timerId = setInterval(countdown, 1000);
 }
 
-function result() {
-  window.location.href = "indexPageResult.html";
-}
+
 
 function countdown() {
   if (timeLeft === -1) {
+    score += 0;
+    newResult = score;
+    window.localStorage.setItem("scorePage2", newResult);
     if (index > questions.length - 1) {
       clearInterval(timerId);
       result();
@@ -238,7 +239,8 @@ function showAnswers() {
 function onAnswer(answer) {
   if (questions[index - 1].correct_answer === risposte[answer].innerText) {
     // INDEX = 0 --> INDEX = 1
-    let newResult = (score += 10);
+    score += 10;
+    newResult = score;
     window.localStorage.setItem("scorePage2", newResult);
   }
   onDisabled(true);
@@ -254,3 +256,6 @@ function showQuiz() {
 }
 
 showQuiz();
+function result() {
+  window.location.href = "indexPageResult.html";
+}
