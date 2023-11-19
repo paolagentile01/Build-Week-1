@@ -261,6 +261,7 @@ h1,h2{
  #h1box{
      padding: 10px;
      margin: 3em;
+     height: 200px;
  }
  
  #domanda{
