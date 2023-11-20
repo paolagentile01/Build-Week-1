@@ -56,8 +56,6 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 #formP1{margin-top: 4%;}
 
 #checkboxP1{
-    width: 8px;
-    height: 8px;
     cursor: pointer;
     width : 20px; 
     height : 20px;
@@ -181,17 +179,25 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     width: 100%;
     text-align: center;
 }
+.margin{
+    margin: 0px;
+}
+#under-title{
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
 .card {
   display: inline-block; 
     width: 25%;
     text-align: center;
+    margin: 50px 0;
+  
 }
 .container-card .card:nth-child(2){
      width: 48%;
      position: relative;
      margin: 0 auto;
 }
-
 #container-circle{
  margin: 0 auto;
   position: relative;
@@ -202,22 +208,22 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
      cursor: pointer;
 }
 .progress-circle{
-  width: 500px;
+  width: 600px;
   height: 500px;
  margin-top: 0;
- transform: rotate(21deg);
+/*  transform: rotate(21deg); */
 /*  transform: rotate(90deg); */ 
 }
 
 .inner{
     fill: none;
     stroke: #D20094 ;
-    stroke-width: 60px;
+    stroke-width: 70px;
 }
 .outer {
     fill: none;
     stroke: #00ffff;
-    stroke-width: 60px;
+    stroke-width: 70px;
     stroke-dasharray: 0 999;
     stroke-dashoffset: 0px;
     transition: stroke-dasharray 0.5s linear 0s; 
@@ -244,8 +250,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     font-weight: bold;
     text-align: center; 
     width: fit-content;
-    padding: 10px 40px;
-    margin: 0px;
+    padding: 15px 60px;
     color: white;
     cursor: pointer;
 } 

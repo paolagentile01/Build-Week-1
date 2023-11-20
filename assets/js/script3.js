@@ -5,7 +5,7 @@ let TOP_PERCENTAGE = 100;
 
 
 function progressBar() {
-  let strokeVal = (5.7 * 200) / TOP_PERCENTAGE;
+  let strokeVal = (6.76 * 200) / TOP_PERCENTAGE;
   let x = document.querySelector(".outer");
   x.style.strokeDasharray = resultTest * strokeVal + " 999";
 }
