@@ -207,17 +207,19 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
   width: 500px;
 }
 
-.position {
+.cursor {
      cursor: pointer;
 }
-.position #container-correct{
+.title-answers{
+font-weight: 400;
+}
+ #container-correct{
     text-align: left;
    margin-left: 220px;
-
 }
 #container-wrong{
-    text-align: left;
-    margin-right:70px;   
+    text-align: right;
+    margin-right:220px;   
 }
 .progress-circle{
   width: 600px;

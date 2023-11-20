@@ -3,7 +3,6 @@ let failed = "hai fallito";
 let el = document.querySelector(".text");
 let TOP_PERCENTAGE = 100;
 
-
 function progressBar() {
   let strokeVal = (6.76 * 200) / TOP_PERCENTAGE;
   let x = document.querySelector(".outer");
@@ -42,9 +41,9 @@ function message() {
 }
 
 function percentage() {
-  let scoreCorrect = document.querySelector("#correct");
+  let scoreCorrect = document.querySelector("#correct-percentage");
   scoreCorrect.innerHTML = resultTest + "%";
-  let scoreWrong = document.querySelector("#wrong");
+  let scoreWrong = document.querySelector("#wrong-percentage");
   scoreWrong.innerHTML = 100 - resultTest + "%";
 }
 
