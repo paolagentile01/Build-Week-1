@@ -118,30 +118,48 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
  /* ---------------------- SECONDA PAGINA ----------------------------*/
  /* css 2page- Milena */
 
- #timerbox{
-    margin-left: 80%;
+ #allineamentoLogoETimer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#timerbox{
     position:relative;
+    padding-top: 50px;
+    padding-right: 200px;
  }
-   #timerCanvas {
-    position:relative;
-    border:10px solid #00ffff;
-    border-radius:200px;
-    width: 100px;
-    background-color: transparent;
-    z-index: 10;
+
+#timerCanvas {
+    width:170px;
+    height: 170px;
+    border: 20px solid #00ffff;
+    border-radius: 200px;
+    position: relative;
  }
 
  #time {
-    z-index: 1;
     color:white;
     font-family:Arial;
-    font-size:50px;
-    position:absolute;
-    text-align:center;
+    font-size:75px;
     border-radius:5px;
-    top: 30px;
-    left: 45px;
+    text-align: center;
+    position: relative;
+    top:20px;
  }
+
+#textSeconds{
+    position: absolute;
+    font-weight: 600;
+    top: 10px;
+    left: 48px;
+}
+
+#textRemaining{
+    position: absolute;
+    font-weight: 600;
+    bottom: 10px;
+    left: 43px;
+}
 
  #h1box{
      padding: 10px;
@@ -201,63 +219,95 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 .container-card {
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+.margin{
+    margin: 0px;
+}
+#under-title{
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 .card {
   display: inline-block; 
     width: 25%;
     text-align: center;
+    margin: 50px 0;
+  
 }
 .container-card .card:nth-child(2){
      width: 48%;
      position: relative;
      margin: 0 auto;
 }
-
 #container-circle{
  margin: 0 auto;
   position: relative;
   width: 500px;
 }
 
-.position {
+.cursor {
      cursor: pointer;
 }
+.title-answers{
+font-weight: 400;
+}
+ #container-correct{
+    text-align: left;
+   margin-left: 220px;
+}
+#container-wrong{
+    text-align: right;
+    margin-right:220px;   
+}
 .progress-circle{
-  width: 500px;
+  width: 600px;
   height: 500px;
  margin-top: 0;
 /*  transform: rotate(21deg); */
- transform: rotate(90deg); 
+/*  transform: rotate(90deg); */ 
 }
 
 .inner{
     fill: none;
     stroke: #D20094 ;
-    stroke-width: 60px;
+    stroke-width: 70px;
 }
 .outer {
     fill: none;
     stroke: #00ffff;
-    stroke-width: 60px;
+    stroke-width: 70px;
     stroke-dasharray: 0 999;
     stroke-dashoffset: 0px;
     transition: stroke-dasharray 0.5s linear 0s; 
 }
 .text {
-    width: 200px;
+    width: 230px;
     position: absolute;
     top: 133px;
-    left: 146px;
+    left: 140px;
     text-align: center;
+   
 }
-.text p{
-  font-size: 16px;
+.text #text3,#text4{
+  font-size: 17px;
 }
 
  #text2{
   color:#00ffff;
 }
+/* .container-text{
+    text-align: left;
+    padding: 120px;
+} */
 
+.container-button{
+    width: 100%;
+    text-align: center;
+    padding: 0 35px;
+}
 .buttonSimple {
     background-color: transparent;
     border: 1px solid white;
@@ -265,8 +315,8 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     font-weight: bold;
     text-align: center; 
     width: fit-content;
-    padding: 10px 40px;
-    margin: 0px;
+    margin: 25px;
+    padding: 15px 60px;
     color: white;
     cursor: pointer;
 } 
