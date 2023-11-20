@@ -14,6 +14,13 @@ body{
 /*in questo file trovi le modifiche da apportare al css generale per silizzare pagina 1
 il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 /*PAGINA 1*/
+/*SEZIONE HEADER*/
+/*logo epicode*/
+.logo{
+    width: 200px;
+    margin: 50px;
+}
+
 
 #contenitoreP1{
     margin-left: 15%;
@@ -86,146 +93,6 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     box-shadow: 0px 0px 12px 0px lightgrey;
 }
 
-/*SEZIONE HEADER*/
-/*logo epicode*/
-.logo{
-    width: 200px;
-    margin: 50px;
-}
-
-
-/*SEZIONE MAIN*/
-.caratteriCentrati{
-    text-align: center;
-}
-
-h1,h2{
-    font-family: 'Outfit',sans-serif;
-}
-.caratteriCentrati h2{
-    font-size: 60px;
-}
-
-.caratteriCentrati p{
-    font-size: 25px;
-}
-
-#spazioImmagini{
-    padding: 30px;
-}
-
-.formDesign input{
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid violet;
-    padding: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-    color: white;
-}
-
-.formDesign{
-    width: 40%;
-    margin: 0 auto;
-}
-/*footerClass*/
-.footerCentrato{
-    text-align: center;
-    padding: 40px;
-}
-
-#fakeButton{
-    background-color: aqua;
-    border: none;
-    font-size: 24px;
-    padding: 15px 40px;
-    font-weight: bold;
-    box-shadow: 0px 0px 23px 0px aqua;
-
-}
-.star1 {
-    display: inline-block;
-    font-size: 60px;
-    color: black;
-    cursor: pointer;
-    }
-/*pagina 2*/
-
-/* css 3page- Esperanza */
-
-.container-card {
-    width: 100%;
-    text-align: center;
-}
-.card {
-  display: inline-block; 
-    width: 25%;
-    text-align: center;
-}
-.container-card .card:nth-child(2){
-     width: 48%;
-     position: relative;
-     margin: 0 auto;
-}
-
-#container-circle{
- margin: 0 auto;
-  position: relative;
-  width: 500px;
-}
-
-.position {
-     cursor: pointer;
-}
-.progress-circle{
-  width: 500px;
-  height: 500px;
- margin-top: 0;
-/*  transform: rotate(21deg); */
- transform: rotate(90deg); 
-}
-
-.inner{
-    fill: none;
-    stroke: #D20094 ;
-    stroke-width: 60px;
-}
-.outer {
-    fill: none;
-    stroke: #00ffff;
-    stroke-width: 60px;
-    stroke-dasharray: 0 999;
-    stroke-dashoffset: 0px;
-    transition: stroke-dasharray 0.5s linear 0s; 
-}
-.text {
-    width: 200px;
-    position: absolute;
-    top: 133px;
-    left: 146px;
-    text-align: center;
-}
-.text p{
-  font-size: 16px;
-}
-
- #text2{
-  color:#00ffff;
-}
-
-.buttonSimple {
-    background-color: transparent;
-    border: 1px solid white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center; 
-    width: fit-content;
-    padding: 10px 40px;
-    margin: 0px;
-    color: white;
-    cursor: pointer;
-} 
  /* ---------------------- SECONDA PAGINA ----------------------------*/
  /* css 2page- Milena */
 
@@ -307,3 +174,136 @@ h1,h2{
      color: white;
  }
 /* ---------------------------- FINE SECONDA PAGINA -------------------------*/
+
+/* css 3page- Esperanza */
+
+.container-card {
+    width: 100%;
+    text-align: center;
+}
+.card {
+  display: inline-block; 
+    width: 25%;
+    text-align: center;
+}
+.container-card .card:nth-child(2){
+     width: 48%;
+     position: relative;
+     margin: 0 auto;
+}
+
+#container-circle{
+ margin: 0 auto;
+  position: relative;
+  width: 500px;
+}
+
+.position {
+     cursor: pointer;
+}
+.progress-circle{
+  width: 500px;
+  height: 500px;
+ margin-top: 0;
+/*  transform: rotate(21deg); */
+ transform: rotate(90deg); 
+}
+
+.inner{
+    fill: none;
+    stroke: #D20094 ;
+    stroke-width: 60px;
+}
+.outer {
+    fill: none;
+    stroke: #00ffff;
+    stroke-width: 60px;
+    stroke-dasharray: 0 999;
+    stroke-dashoffset: 0px;
+    transition: stroke-dasharray 0.5s linear 0s; 
+}
+.text {
+    width: 200px;
+    position: absolute;
+    top: 133px;
+    left: 146px;
+    text-align: center;
+}
+.text p{
+  font-size: 16px;
+}
+
+ #text2{
+  color:#00ffff;
+}
+
+.buttonSimple {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    width: fit-content;
+    padding: 10px 40px;
+    margin: 0px;
+    color: white;
+    cursor: pointer;
+} 
+
+/* css 4page- Lorenzo */
+/*SEZIONE MAIN*/
+.caratteriCentrati{
+    text-align: center;
+}
+
+h1,h2{
+    font-family: 'Outfit',sans-serif;
+}
+.caratteriCentrati h2{
+    font-size: 60px;
+}
+
+.caratteriCentrati p{
+    font-size: 25px;
+}
+
+#spazioImmagini{
+    padding: 30px;
+}
+
+.formDesign input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid violet;
+    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+
+.formDesign{
+    width: 40%;
+    margin: 0 auto;
+}
+/*footerClass*/
+.footerCentrato{
+    text-align: center;
+    padding: 40px;
+}
+
+#fakeButton{
+    background-color: aqua;
+    border: none;
+    font-size: 24px;
+    padding: 15px 40px;
+    font-weight: bold;
+    box-shadow: 0px 0px 23px 0px aqua;
+
+}
+.star1 {
+    display: inline-block;
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+    }
