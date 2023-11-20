@@ -210,6 +210,15 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 .position {
      cursor: pointer;
 }
+.position #container-correct{
+    text-align: left;
+   margin-left: 220px;
+
+}
+#container-wrong{
+    text-align: left;
+    margin-right:70px;   
+}
 .progress-circle{
   width: 600px;
   height: 500px;
@@ -232,11 +241,12 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     transition: stroke-dasharray 0.5s linear 0s; 
 }
 .text {
-    width: 200px;
+    width: 230px;
     position: absolute;
     top: 133px;
-    left: 150px;
+    left: 140px;
     text-align: center;
+   
 }
 .text #text3,#text4{
   font-size: 17px;
@@ -245,7 +255,16 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
  #text2{
   color:#00ffff;
 }
+/* .container-text{
+    text-align: left;
+    padding: 120px;
+} */
 
+.container-button{
+    width: 100%;
+    text-align: center;
+    padding: 0 35px;
+}
 .buttonSimple {
     background-color: transparent;
     border: 1px solid white;
