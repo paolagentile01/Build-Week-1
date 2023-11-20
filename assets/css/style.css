@@ -178,6 +178,9 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 .container-card {
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 25px;
 }
 .margin{
     margin: 0px;
@@ -250,6 +253,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     font-weight: bold;
     text-align: center; 
     width: fit-content;
+    margin: 25px;
     padding: 15px 60px;
     color: white;
     cursor: pointer;
