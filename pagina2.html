@@ -22,7 +22,7 @@
 
       <!-- TIMER -->
       <div id="timerbox">
-        <div id="time">0</div>
+        <div id="time"></div>
         <canvas id="timerCanvas" width="200" height="200"></canvas>
       </div>
 
@@ -32,22 +32,22 @@
       </div>
       <!-- RISPOSTE -->
       <div id="tastibox">
-        <button type="submit" class="risposte" value="">
+        <button type="button" class="risposte" value="" onclick="onAnswer(0)">
           <span>Risposta 1</span>
         </button>
-        <button type="submit" class="risposte" value="">
+        <button type="button" class="risposte" value="" onclick="onAnswer(1)">
           <span>Risposta 2</span>
         </button>
         <br />
-        <button type="submit" class="risposte" value="">
+        <button type="button" class="risposte blocco" value="" onclick="onAnswer(2)">
           <span>Risposta 3</span>
         </button>
-        <button type="submit" class="risposte" value="">
+        <button type="button" class="risposte blocco" value="" onclick="onAnswer(3)">
           <span>Riposta 4</span>
         </button>
       </div>
       <div id="conteggioDomande">
-        <h4 id="avanzamento"><span style="color: #d20094">/10</span></h4>
+        <h4>QUESTION <span id="avanzamento"></span><span style="color: #d20094"> /10<span></h4>
       </div>
     </div>
 
