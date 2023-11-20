@@ -57,8 +57,6 @@ function scoreQuestions() {
   scoreWrongQuestions.innerHTML =
     numberQuestions - total + `/${numberQuestions} questions`;
 }
-
-
 progressBar();
 message();
 percentage();

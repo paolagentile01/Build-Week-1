@@ -168,8 +168,6 @@ function intervalStart() {
   timerId = setInterval(countdown, 1000);
 }
 
-
-
 function countdown() {
   if (timeLeft === -1) {
     score += 0;
@@ -233,16 +231,20 @@ function showAnswers() {
   }
   for (let i = 0; i < arrayShuffle.length; i++) {
     risposte[i].innerText = arrayShuffle[i];
+    buttons[i].style.backgroundColor = '';
   }
 }
 
 function onAnswer(answer) {
+  buttons[answer].style.backgroundColor = '#d20094';
+
   if (questions[index - 1].correct_answer === risposte[answer].innerText) {
     // INDEX = 0 --> INDEX = 1
     score += 10;
     newResult = score;
     window.localStorage.setItem("scorePage2", newResult);
   }
+
   onDisabled(true);
   timeLeft = -1;
 }
