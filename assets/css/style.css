@@ -18,12 +18,12 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
 /*logo epicode*/
 .logo{
     width: 200px;
-    margin: 50px;
+    padding: 50px 100px;
 }
 
 
 #contenitoreP1{
-    margin-left: 15%;
+    margin-left: 10%;
     line-height: 1.4;
     margin-bottom: 0%;
 }
