@@ -61,7 +61,8 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     width: 20px;
     height: 20px;
     opacity: 1;
-    margin-right: 20px; 
+    margin-right: 20px;
+    vertical-align: middle;
 }
 
 #checkboxP1::before {
@@ -73,7 +74,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     width: 100%;
     height: 100%;
     background-color: #0C113B;
-    outline: 3px solid white;
+    outline: 2px solid white;
 }
 
 #checkboxP1:checked::after {
