@@ -60,7 +60,6 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     cursor: pointer;
     width: 20px;
     height: 20px;
-    opacity: 1;
     margin-right: 20px;
     vertical-align: middle;
 }
