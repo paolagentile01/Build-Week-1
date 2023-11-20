@@ -53,7 +53,7 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     margin-bottom: 3px;
 }
 /*FORM*/
-#formP1{margin-top: 4%;}
+#formP1{margin-top: 80px;}
 
 #checkboxP1 {
     position: relative;
