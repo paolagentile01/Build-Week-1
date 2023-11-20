@@ -205,8 +205,8 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
   width: 500px;
   height: 500px;
  margin-top: 0;
-/*  transform: rotate(21deg); */
- transform: rotate(90deg); 
+ transform: rotate(21deg);
+/*  transform: rotate(90deg); */ 
 }
 
 .inner{
@@ -226,11 +226,11 @@ il per il bottono ho dovuto adottare un id apposito per conferirgli del margin*/
     width: 200px;
     position: absolute;
     top: 133px;
-    left: 146px;
+    left: 150px;
     text-align: center;
 }
-.text p{
-  font-size: 16px;
+.text #text3,#text4{
+  font-size: 17px;
 }
 
  #text2{
