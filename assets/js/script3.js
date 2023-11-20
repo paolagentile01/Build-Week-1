@@ -1,12 +1,12 @@
 let resultTest = localStorage.getItem("scorePage2");
 let failed = "hai fallito";
 let el = document.querySelector(".text");
-let TOP_PERCENTAGE = 100;
+
 
 function progressBar() {
-  let strokeVal = (6.76 * 200) / TOP_PERCENTAGE;
+  let strokeVal = (6.76 * 2)
   let x = document.querySelector(".outer");
-  x.style.strokeDasharray = resultTest * strokeVal + " 999";
+  x.style.strokeDasharray = resultTest * strokeVal + "999";
 }
 
 function msgCongratulation() {
@@ -17,8 +17,7 @@ function msgCongratulation() {
   let mssgCongraT3 = document.querySelector("#text3");
   mssgCongraT3.innerText = "Well'send you the certificate in few minutes.";
   let mssgCongraT4 = document.querySelector("#text4");
-  mssgCongraT4.innerText =
-    "Check your email (including promotions / span folder)";
+  mssgCongraT4.innerText = "Check your email (including promotions / span folder)";
 }
 
 function msgFailed() {
