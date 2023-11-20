@@ -159,27 +159,18 @@ h1,h2{
 /* css 3page- Esperanza */
 
 .container-card {
-   /*  display: flex;
-    flex-direction: row;
-    justify-content: center; */
     width: 100%;
     text-align: center;
-  
-    
 }
 .card {
   display: inline-block; 
     width: 25%;
     text-align: center;
-  /*   background-color: red; */
-
-    
 }
 .container-card .card:nth-child(2){
      width: 48%;
      position: relative;
      margin: 0 auto;
-   /*   background-color: antiquewhite; */
 }
 
 #container-circle{
@@ -189,14 +180,14 @@ h1,h2{
 }
 
 .position {
-   /*   width: 160px;
-     height: 160px; */
      cursor: pointer;
 }
 .progress-circle{
   width: 500px;
   height: 500px;
  margin-top: 0;
+/*  transform: rotate(21deg); */
+ transform: rotate(90deg); 
 }
 
 .inner{
@@ -218,8 +209,6 @@ h1,h2{
     top: 133px;
     left: 146px;
     text-align: center;
-
-   
 }
 .text p{
   font-size: 16px;
@@ -248,8 +237,6 @@ h1,h2{
     margin-left: 80%;
     position:relative;
  }
-
-
    #timerCanvas {
     position:relative;
     border:10px solid #00ffff;
@@ -299,6 +286,7 @@ h1,h2{
     border-bottom: none;
     color: white;
     margin: 1rem;
+    cursor: pointer;
  }
  
  .risposte:hover{
