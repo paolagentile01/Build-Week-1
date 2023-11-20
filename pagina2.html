@@ -10,22 +10,28 @@
   </head>
 
   <body>
-    <div id="conteiner">
-      <div>
-        <img
-          id="logoEpicode"
-          src="assets/img/epicode_logo.png"
-          alt=""
-          class="logo"
-        />
+    <div id="allineamentoLogoETimer">
+      <div id="conteiner">
+        <div>
+          <img
+            id="logoEpicode"
+            src="assets/img/epicode_logo.png"
+            alt=""
+            class="logo"
+          />
+        </div>
       </div>
-
       <!-- TIMER -->
       <div id="timerbox">
-        <div id="time"></div>
-        <canvas id="timerCanvas" width="200" height="200"></canvas>
+        <div id="timerCanvas" width="200" height="200">
+          <p id="textSeconds">SECONDS</p>
+          <br />
+          <div id="time"></div>
+          <br />
+          <p id="textRemaining">REMAINING</p>
+        </div>
       </div>
-
+    </div>
       <!-- DOMANDA -->
       <div id="h1box">
         <h1 id="domanda">Domanda</h1>
